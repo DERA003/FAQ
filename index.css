@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Graphik, sans-serif;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(38, 1, 75);
+    height: 87px;
+    color: white;
+    padding: 15px 40px;
+    font-size: 13px;
+    cursor: pointer;
+    position: sticky;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar h4:hover{
+    color: deeppink;
+}
+
+.nav_bar .left{
+    display: flex;
+    gap: 25px;
+    margin-left: 15px;
+    padding-right: 20%;
+
+}
+
+.nav_bar .right{
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+    margin-right: 2px;
+    align-items: center;
+    
+}
+
+.nav_bar .right button{
+    width:130px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.nav_bar .right button a{
+    color:  rgb(38, 1, 75);
+    font-size: 15px;
+}
+
+
+.nav_bar .logo img{
+    width: 200px;
+    height: 57px;
+    padding-right: 10px;
+}
+
+.mini_body{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.mini_body .left{
+    width: 1000px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 25px;
+    border-bottom: 6px solid black;
+    color:  rgb(38, 1, 75);
+    display: block;
+}
+
+.mini_body .right img{
+    width: 995px;
+    color: blue;
+    padding-left: 1px;
+    padding-top: 93px;
+}
+
+.container{
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.container .faq1{
+    background-color: white;
+    width: 600px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0,0.06);
+    height: 80px;
+    color: rgb(38, 1, 75);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container .faq2{
+    background-color: white;
+    width: 600px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0,0.06);
+    height: 80px;
+    color: rgb(38, 1, 75);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container .faq1 .question{
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.container .faq2 .question{
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container .faq1 .answer{
+    padding: 12px;
+    display: none;
+}
+
+.container .faq2 .answer{
+    padding: 12px;
+    display: none;
+}
+
+.container .faq1 .answer .active{
+    display: block;
+}
+
+.container .faq2 .answer .active{
+    display: block;
+}
+
+
+
